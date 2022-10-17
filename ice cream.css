@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(102, 23, 23, 0.137),
+    rgba(255, 0, 0, 0.233)),
+    url(fruits-ice-cream-strawberry-blueberries-1680x1050-wallpx.com.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nave{
+    height: 15vh;
+    display: flex;
+    width: 100%;
+}
+.icon{
+    margin-top: 28px;
+    margin-left: 20px;
+    color: white;
+    transition: all 0.5s ease 0s;
+    position: absolute;
+    left: 10px;
+}
+.icon:hover{
+    color: rgb(255, 121, 143);
+    text-decoration: underline;
+
+}
+.search i{
+    margin-top: 27px;
+    padding: 7px 7px 6px 11px;
+    margin-left: 19px;
+    border-radius: 30px;
+    background-color: rgb(83, 46, 3);
+    transition: all .7s;
+    left: 69px;
+    position: absolute;
+    color: rgb(255, 157, 189);
+    
+}
+.search input{
+    border: none;
+    outline: none;
+    background: none;
+    color: rgb(255, 157, 189);
+}
+.search i:hover{
+    border-radius: 5px;
+}
+.search input{
+    border-left: 1px;
+    padding-left: 0;
+}
+.nave{
+    display: flex;
+    justify-content: end;
+}
+.nave ul,a li{
+    display: inline-flex;
+    justify-content: end;
+    margin-right: 34px;
+    margin-top: 15px;
+    font-size: 30px;
+    font-family: 'Spicy Rice', cursive;
+    transition: all .6s ease 0s;
+
+
+}
+.nave a{
+    text-decoration: none;
+} 
+.nave li{
+    color: aliceblue;
+}
+.nave li:hover{
+    color: rgb(255, 121, 143);
+    text-decoration: underline;
+}
+
+.content{
+    height: 70vh;
+    display: flex;
+}
+.background{
+    height: 10vh;
+    width: 100%;
+    position: absolute;
+    top: 126px;
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ice-cream-list ul{
+    font-family: 'Rubik Moonrocks', cursive;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+
+}
+.ice-cream-list li{
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.ice-cream-list a{
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(14, 172, 0);
+    margin: 0px 301px 0px 149px;
+    background-color: rgba(136, 54, 0, 0.562);
+    transition: .7s;
+}
+.ice-cream-list a:hover{
+    
+    border-radius: 15px;
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.26), rgba(77, 35, 1, 0.253));
+    color: rgb(120, 250, 250);
+}
+
+.futer{
+    height: 15vh;
+    background-color: rgba(255, 255, 255, 0.144);
+}
+.logo img{
+    padding-top: 20px;
+    padding-right: 10px;
+}
